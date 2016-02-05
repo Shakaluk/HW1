@@ -44,8 +44,8 @@ console.log(a);
 //unary
 var o1 = -o1; //3 -> -3
 o2 = +o2 ;   // '3' -> 3 (num)
-o3 = ++;     // 3 -> 4
-o4 = --;     // 3 -> 2
+o3 ++;     // 3 -> 4
+o4 --;     // 3 -> 2
 o5 = ~o5;    // 3 -> -4
 o6 = !o6;     // 3 -> false, 0 -> true
 o7 = typeof o7;   // 3 -> number
